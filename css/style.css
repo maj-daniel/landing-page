@@ -1,13 +1,12 @@
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
-    padding: 0 15%;
 }
 
 .header {
     display: flex;
     margin: 0;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 64px;
 }
@@ -23,4 +22,8 @@ ul {
     list-style-type: none;
     gap: 20px;
     font-size: 18px;
+}
+
+img {
+    height: 200px;
 }
