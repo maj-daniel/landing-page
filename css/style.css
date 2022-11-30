@@ -31,16 +31,19 @@ ul {
 
 .hero {
     padding-top: 100px;
+    padding-bottom: 200px;
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    height: 300px;
 }
 
 .hero .content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    max-width: 500px;
+    justify-content: flex-start;
+    max-width: 400px;
+    margin-right: 20px;
 }
 
 .hero-image {
@@ -57,6 +60,20 @@ ul {
 .main {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0 0 10px 0;
+    padding: 0;
+    max-width: 240px;
+}
+
+.hero .content button {
+    margin-top: auto;
+    background-color: #3882F6;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    width: 120px;
+    padding: 8px;
+    border-radius: 7px;
 }
 
 .secondary,
