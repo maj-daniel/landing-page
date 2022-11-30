@@ -2,7 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
 }
-
+/* general caracteristics */
 .header,
 .hero,
 .cards-section,
@@ -10,10 +10,46 @@ body {
 .footer,
 .call-section {
     padding: 0 15%;
+    display: flex;
 }
 
+.hero,
+.cards-section,
+.quote-section,
+.call-section {
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* shared fonts */
+.secondary,
+.header ul li {
+    font-size: 18px;
+}
+
+.hero .main,
+.header .logo,
+.hero .content button {
+    color: #F9FAF8;
+}
+
+.header ul li,
+.hero .secondary {
+    color: #E5E7EB;
+}
+
+/* div colors */
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+
+/* header specific */
 .header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
@@ -21,21 +57,19 @@ body {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 16px;
 }
 
+/* hero specific */
 .hero {
-    padding-top: 100px;
-    padding-bottom: 200px;
-    display: flex;
     justify-content: space-between;
     align-items: stretch;
-    height: 300px;
 }
 
 .hero .content {
@@ -74,9 +108,4 @@ ul {
     width: 120px;
     padding: 8px;
     border-radius: 7px;
-}
-
-.secondary,
-.header ul li {
-    font-size: 18px;
 }
