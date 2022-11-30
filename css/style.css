@@ -3,27 +3,28 @@ body {
     margin: 0;
 }
 
-.header {
-    display: flex;
-    margin: 0;
-    justify-content: space-around;
-    align-items: center;
-    height: 64px;
-}
-
-.logo {
-    font-weight: bolder;
-    font-size: 24px;
-}
-
-ul {
-    display: flex;
-    padding: 0;
-    list-style-type: none;
-    gap: 20px;
-    font-size: 18px;
+.header,
+.hero,
+.cards-section,
+.quote-section,
+.footer,
+.call-section {
+    padding: 0 15%;
 }
 
 img {
     height: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
 }
