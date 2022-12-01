@@ -10,6 +10,10 @@ body {
 .footer,
 .call-section {
     padding: 0 15%;
+}
+
+.header,
+.hero {
     display: flex;
 }
 
@@ -108,4 +112,33 @@ ul {
     width: 120px;
     padding: 8px;
     border-radius: 7px;
+}
+
+/* cards specific */
+.cards-section {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    max-width: 150px;
+    max-height: 250px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.card-img {
+    background-color: #E5E7EB;
+    height: 150px;
+    width: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
 }
