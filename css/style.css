@@ -119,6 +119,14 @@ ul {
     text-align: center;
 }
 
+.cards-section h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
 .cards {
     display: flex;
     justify-content: space-around;
@@ -147,11 +155,22 @@ ul {
 
 .quote-section {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.quote {
+.quote-section .quote {
     font-size: 36px;
     font-style: italic;
     font-weight: light;
     color: #1F2937;
+    margin: 0 0 20px 0;
+}
+
+.quote-section .autor {
+    font-weight: bolder;
+    font-size: 20px;
+    align-self: flex-end;
+    margin: 0;
 }
