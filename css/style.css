@@ -13,7 +13,8 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.call-section {
     display: flex;
 }
 
@@ -129,7 +130,7 @@ ul {
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
 }
 
@@ -174,3 +175,46 @@ ul {
     align-self: flex-end;
     margin: 0;
 }
+
+/* call to action specifit */
+
+.call-section .box {
+    background-color: #3882F6;
+    padding: 50px;
+    height: 150px;
+    box-sizing: border-box;
+    align-self: center;
+    flex: 1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-section .text {
+    align-self: center;
+}
+
+.call-section .box .call {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 0 0 4px 0;
+    color: #F9FAF8;
+}
+
+.call-section .box .call-description {
+    font-size: 16px;
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.call-section button {
+    background-color: #3882F6;
+    align-self: center;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
