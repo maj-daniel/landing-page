@@ -79,11 +79,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
     height: 300px;
+    flex: 0 2 auto;
 }
 
 .hero h1 {
     margin: 0 0 10px 0;
-    width: 200px;
+    max-width: 200px;
     color: #F9FAF8;
     font-size: 48px;
     font-weight: bold;
@@ -92,7 +93,7 @@ body {
 .hero .secondary {
     font-size: 18px;
     color: #E5E7EB;
-    width: 400px;
+    max-width: 400px;
 }
 
 .hero button {
@@ -109,6 +110,7 @@ body {
 .hero .image {
     height: 300px;
     width: 754px;
+    margin-left: 6px;
     flex: initial;
     display: flex;
     align-items: center;
